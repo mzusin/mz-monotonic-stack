@@ -1,7 +1,8 @@
-import { aaa } from './core/main';
+import { monotonicIncreasingStack, monotonicDecreasingStack } from './core/main';
 
 const api = {
-    ...aaa
+    monotonicIncreasingStack,
+    monotonicDecreasingStack,
 };
 
 declare global {
